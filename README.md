@@ -8,6 +8,12 @@
 
 2. Update code
 
-3. Add 0r stage code for commit
+3. Add 0r stage code for commit - git add .
 
-4. Commit Code
+4. Commit Code - git commit -m "description"
+
+5. create a remote respository from github & SSH LINK
+
+6. use command git remote add origin git@github.com:techftabdul/techftabdul.github.io.git
+
+6. git push remote origin main
