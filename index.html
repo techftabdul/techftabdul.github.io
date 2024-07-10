@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/techftabdul-logo.png" alt="my logo" width="125" height="125" >
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigator ">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Some Of My Projects</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Intro -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Welcome, I am <strong>AbdulMalik.</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            front-end/web developer
+        </p>
+        <img src="assets/ceo dev.jpeg" alt="profile picture" class="intro__img">
+    </section>
+
+
+    <!-- What I do -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>I help design and develop user friendly & mobile responsive websites for businesses and brands 
+                    which helps create web presence, engage customers interactions and generate more leads/sales.
+                </p>
+            </div>
+            <!--  -->
+
+            <div class="service">
+                <h3>Digital Marketing & Graphics Design</h3>
+                <p>I design visual friendly graphics for businesses and brands to engage potential customers in
+                    social media marketing and content creation. I also promote business custom products and services in a 
+                    way that increases sales with proven sales and marketing strategies.
+                    
+                </p>
+            </div>
+            <!--  -->
+
+            <div class="service">
+                <h3>Technical & Content Writing</h3>
+                <p>Lastly, I write in-depth & concise documentation within varieties of niche that includes Tech, DeFi, Content Creation and interesting emerging technologies.
+                     Documentation that are easy to understand and use.
+                </p>
+            </div>
+            <!--  -->
+        </div>
+        <!-- <a href="#work" class="btn">Some Of My Work</a> -->
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">About Me</h2>
+        <p class="section__subtitle section__subtitle--about">Web Developer, Graphics Designers, Digital Marketer & Technical Content Writer based in Doha, Qatar.</p>
+
+        <div class="about-me__body">
+            <p>My name is AbdulMalik (techftabdul on X), a proficient web developer, technical content writer, graphics designer and digital marketer based in Doha, Qatar. 
+                I have profound skills in using technology to solve business & brand problems. With over 3 years of experience I have worked on varieties of project in different
+                nichees that includes Real Estate, Tech, Personal Branding, DeFi e.t.c. 
+                I am very passionate about learning tech skills and working on projects that solves real-time problems. I am currently improving my tech skills in programming
+                as I freelance. I hope to one day become a succesful full-stack developer with products that solves real-time problems in the world while creating values to millions of users.
+                I want to contribute immensely to the spread of tech skills in the world. 
+            
+        </div>
+        <img src="assets/agba_ceo.jpeg" alt="Agba grinds" class="about-me__img">
+    </section>
+
+    <!-- My Projects -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">Some Of My Web Development Work</h2>
+        <p class="section__subtitle"><i>A few selections</i></p>
+
+        <div class="portfolio">
+            <!-- Portfolio Item 01 -->
+            <a href="https://shoppingcartbytechftabdul.netlify.app/" class="portfolio__item">
+                <img src="assets/project_1.png" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="assets/project_2.png" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 03 -->
+            <a href="https://securepasswordsgenerator.netlify.app" class="portfolio__item">
+                <img src="assets/project_3.jpeg" class="portfolio__img">
+            </a>
+
+            
+
+            <!-- Portfolio Item 4 -->
+            <a href="#" class="portfolio__item">
+                <img src="assets/project_7.jpeg" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 05 -->
+            <a href="https://metricunitsconverter.netlify.app/" class="portfolio__item">
+                <img src="assets/project_4.jpeg" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 06 -->
+            <a href="#" class="portfolio__item">
+                <img src="assets/project_9.jpeg" class="portfolio__img">
+            </a>
+            
+        </div>
+
+    </section>
+
+    
+
+    
+
+    <!-- Footer -->
+    
+    <footer class="footer" id="contacts"> 
+        <h2 class="section__title" id="contact-info">Contact Info</h2>
+        <a href="mailto:adebaremaleek@gmail.com" class="footer__link">hello@techftabdul.dev</a>
+        <br></br>
+        <a href="assets/developer_resume.pdf" target="_blank" class="footer__link"> 
+            <b>Download Resume</b>
+        </a>
+        <br></br>
+
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/techftabdul">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/abdulmalik-adebare-3b6627285/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/techftabdul">
+                    <i class="fab fa-github"></i>
+                </i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://wa.link/wns90t">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
