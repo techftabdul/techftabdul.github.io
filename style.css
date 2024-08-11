@@ -351,7 +351,7 @@ header {
     .about-me__img {
         grid-row: 1 / -1;
         grid-column: 2;
-       
+        border-radius: 50%;
     }
 
     .section__title--about {
@@ -373,7 +373,7 @@ header {
         position: relative;
         z-index: 2;
         margin-left: 1.5rem;
-        
+        height: 200px;
     }
 
     .about-me__body p {
