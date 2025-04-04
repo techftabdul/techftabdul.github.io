@@ -336,6 +336,12 @@ header {
     height: 200px;
 }
 
+.about-me__body p {
+        max-width: 100%;
+        font-size: 1.85rem;
+        text-align: center;
+    }
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
